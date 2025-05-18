@@ -1,0 +1,48 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+.content-home {
+  height: 100vh;
+  background: linear-gradient(to bottom, #2B587B, #71C9C4);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-family: Arial, sans-serif;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.content-home h1 {
+  color: white;
+  font-weight: normal;
+  margin: 10px 0;
+}
+
+.content-home h4 {
+  color: rgb(231, 231, 231);
+  font-family: 'Bradley Hand ITC', cursive;
+  margin: 5px 0 20px 0;
+}
+.content-home input {
+  width: 200px;
+  height: 25px;
+  border-radius: 5px;
+  margin: 20px 0 20px 0;
+}
+
+.content-home button {
+  width: 150px;
+  height: 40px;
+  background-color: #71C9C4;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
