@@ -1,4 +1,4 @@
-import Announcement from '../models/Announcement.js';
+import Announcement from '../models/Announcement';
 import { Request ,Response } from 'express';
 import mongoose from 'mongoose';
 

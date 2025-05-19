@@ -2,8 +2,8 @@ import express from 'express';
 import mongoose from 'mongoose';
 
 import cors from 'cors';
-import announcementRoutes from './routes/announcementRoutes.js';
-import tasksRoutes from './routes/tasksRoutes.js';
+import announcementRoutes from './routes/announcementRoutes';
+import tasksRoutes from './routes/tasksRoutes';
 
 const app = express();
 app.use(cors());
