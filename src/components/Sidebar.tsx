@@ -1,12 +1,5 @@
 import './Sidebar.css';
-import {
-    FaTachometerAlt,
-    FaCalendarAlt,
-    FaBook,
-    FaClipboardList,
-    FaChartLine,
-    FaBullhorn
-} from 'react-icons/fa';
+import { FaTachometerAlt, FaCalendarAlt, FaBook, FaClipboardList, FaChartLine, FaBullhorn, FaEnvelope, FaBell, FaUser } from 'react-icons/fa'; // ✅ CORRECT
 import { useNavigate } from 'react-router-dom';
 import { useState } from 'react';
 

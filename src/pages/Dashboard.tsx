@@ -5,7 +5,7 @@ import { getTasks } from '../features/Tasks/tasks';
 import Sidebar from '../components/Sidebar';
 import TaskCard from '../components/TaskCard';
 import './dashboard.css';
-import { FaSearch, FaEnvelope, FaBell, FaUser } from 'react-icons/fa';
+import { FaEnvelope, FaBell, FaUser } from 'react-icons/fa';
 import { Announcement, Task } from '../types/types';
 
 const Dashboard = () => {
